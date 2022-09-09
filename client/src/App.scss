@@ -1,0 +1,92 @@
+$color-primary : #26282b;
+$color-lighter-grey-background: #353941;
+$color-light-text: rgb(207, 207, 207);
+$color-medium-text: #9C9EA1;
+$color-dark-text: rgb(63, 63, 63);
+$color-action: #5f85db;
+$color-action-hover: #90b8f8;
+
+.app-container {
+  margin-bottom: 8em;
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background: $color-primary;
+  color: $color-light-text;
+}
+
+.navbar {
+  color: $color-light-text;
+}
+
+.homepage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-image: url('./assets/images/movies.jpg');
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+
+.home-text {
+  text-align: center;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  color: $color-dark-text;
+}
+
+.card-columns {
+  flex-direction: row;
+}
+
+.card-img-top {
+  max-height: 75vh;
+}
+
+.small {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+.page-footer {
+  background-color: $color-lighter-grey-background;
+}
+
+.footer-link {
+  color: $color-light-text;
+  font-size: 0.8rem;
+}
+.footer-link:hover {
+  color: $color-medium-text;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    column-count: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+    column-count: 3;
+  }
+}
