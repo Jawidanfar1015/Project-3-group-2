@@ -1,0 +1,20 @@
+{
+  "name": "project-3-group-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jawidanfar1015/Project-3-group-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jawidanfar1015/Project-3-group-2/issues"
+  },
+  "homepage": "https://github.com/Jawidanfar1015/Project-3-group-2#readme"
+}
