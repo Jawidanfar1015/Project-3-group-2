@@ -13,7 +13,7 @@ const AppNavbar = () => {
         <>
             <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
                 <Navbar.Brand as={Link} to='/'>
-                    FANTINDER
+                    MOVIE SCENE
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='navbar' />
                 <Navbar.Collapse id='navbar'>
