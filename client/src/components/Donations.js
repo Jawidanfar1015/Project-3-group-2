@@ -23,7 +23,7 @@ const Donations = () => {
             "Content-Type": "application/json",
         }
 
-        return fetch("http://localhost:3001/checkout", {
+        return fetch("http://127.0.0.1:3001/checkout", {
             method: "POST",
             headers,
             body: JSON.stringify(body)
