@@ -222,12 +222,12 @@ const Homepage = () => {
     
     return(
         <>
-            <Jumbotron fluid className="text-light bg-dark">
+            <Jumbotron fluid className="text-dark bg-light">
                 <Container>
-                    <h1>Welcome to FANTINDER!</h1>
+                    <h1>Welcome to The Movie Scene!</h1>
                     {Auth.loggedIn()
                         ? <h4>Click thumbs up to like and save a movie, thumbs down to pass.</h4>
-                        : <h4>Check out our recommended movies below.</h4>
+                        : <h4>Recommended movies below.</h4>
                     }
                 </Container>
             </Jumbotron>

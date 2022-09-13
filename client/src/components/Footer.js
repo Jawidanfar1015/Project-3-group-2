@@ -5,95 +5,95 @@ import { Container } from 'react-bootstrap';
 const AppFooter = () => {
     return (
         <>
-            <Container fluid className="text-light page-footer d-flex">
+            <Container fluid className="text-dark page-footer d-flex">
                 <Container>
                     <h5 className='pt-4'>Contact Us</h5>
                     <div className="d-lg-flex pb-4 justify-content-between">
                         <ul className="no-bullets">
-                            <li><h6>Anita Ganti</h6></li>
+                            <li><h6>Holly Haller</h6></li>
                             <li>
-                                <a className="footer-link" href="https://anitapeppercorn.github.io/react-portfolio/#/about">
+                                <a className="footer-link" href="https://hallerhc.github.io/Holly-Haller-Portfolio/">
                                     <span><i className="far fa-folder pr-3"></i></span>
-                                    https://anitapeppercorn.github.io/react-portfolio
+                                    https://hallerhc.github.io/Holly-Haller-Portfolio/
                                 </a>
                             </li>
                             <li>
-                                <a className="footer-link" href="mailto:anita_r_ganti@yahoo.com">
+                                <a className="footer-link" href="mailto:thehallers@icloud.com">
                                     <span><i className="far fa-envelope pr-3"></i></span>
-                                    anita_r_ganti@yahoo.com
+                                    thehallers@icloud.com
                                 </a>
                             </li>
                             <li>
-                                <a className="footer-link" href="https://github.com/anitapeppercorn">
+                                <a className="footer-link" href="https://github.com/hallerhc">
                                     <span><i className="fab fa-github pr-3"></i></span>
-                                    anitapeppercorn
+                                    hallerhc
                                 </a>
                             </li>
                             <li>
-                                <a className="footer-link" href="https://www.linkedin.com/in/anita-ganti-9380961/">
+                                <a className="footer-link" href="https://www.linkedin.com/in/holly-haller-154695240">
                                     <span><i className="fab fa-linkedin pr-3"></i></span>
-                                    anita-ganti-9380961
+                                    holly-haller-154695240
                                 </a>
                             </li>
                         </ul>
                         <ul className="no-bullets">
-                            <li><h6>Priya Ravi</h6></li>
+                            <li><h6>Jawid Noori</h6></li>
                             <li>
-                                <a className="footer-link" href="https://priyaravi23.github.io/react-portfolio/#/about">
+                                <a className="footer-link" href="https://jawidanfar1015.github.io/PORTFOLIO/">
                                     <span><i className="far fa-folder pr-3"></i></span>
-                                    https://priyaravi23.github.io/react-portfolio/
+                                    https://jawidanfar1015.github.io/PORTFOLIO/
                                 </a>
                             </li>
                             <li>
-                                <a className="footer-link" href="mailto:priyaravi23@gmail.com">
+                                <a className="footer-link" href="hajikaka4030@gmail.com">
                                     <span><i className="far fa-envelope pr-3"></i></span>
-                                    priyaravi23@gmail.com
+                                    hajikaka4030@gmail.com
                                 </a>
                             </li>
                             <li>
-                                <a className="footer-link" href="https://github.com/priyaravi23">
+                                <a className="footer-link" href="https://github.com/Jawidanfar1015">
                                     <span><i className="fab fa-github pr-3"></i></span>
-                                    priyaravi23
+                                    jawidanfar1015
                                 </a>
                             </li>
                             <li>
-                                <a className="footer-link" href="https://www.linkedin.com/in/priya-ravi-4508437b/">
+                                <a className="footer-link" href=" ">
                                     <span><i className="fab fa-linkedin pr-3"></i></span>
-                                    priya-ravi-4508437b
+                                    linkedin
                                 </a>
                             </li>
                         </ul>
                         <ul className="no-bullets">
-                            <li><h6>Vanessa Lane</h6></li>
+                            <li><h6>Socheata Ly</h6></li>
                             <li>
-                                <a className="footer-link" href="https://vanessalane.herokuapp.com">
+                                <a className="footer-link" href="https://github.com/socheata16/updated-portfoliopage">
                                     <span><i className="far fa-folder pr-3"></i></span>
-                                    https://vanessalane.herokuapp.com
+                                    https://github.com/socheata16/updated-portfoliopage
                                 </a>
                             </li>
                             <li>
-                                <a className="footer-link" href="mailto:vlane0593@gmail.com">
+                                <a className="footer-link" href="">
                                     <span><i className="far fa-envelope pr-3"></i></span>
-                                    vlane0593@gmail.com
+                                    Still need an email here
                                 </a>
                             </li>
                             <li>
-                                <a className="footer-link" href="https://github.com/vanessalane">
+                                <a className="footer-link" href="https://github.com/socheata16">
                                     <span><i className="fab fa-github pr-3"></i></span>
-                                    vanessalane
+                                    socheata16
                                 </a>
                             </li>
                             <li>
-                                <a className="footer-link" href="https://www.linkedin.com/in/vanessa-lane/">
+                                <a className="footer-link" href="https://www.linkedin.com/in/socheata16">
                                     <span><i className="fab fa-linkedin pr-3"></i></span>
-                                    vanessa-lane
+                                    linkedin
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div className="d-flex justify-content-between">
-                        <p>© 2020</p>
-                        <p><a className="footer-link" href="https://github.com/anitapeppercorn/FANTINDER"><i className="fab fa-github pr-3"></i>Visit the GitHub Repo</a></p>
+                        <p>© 2022</p>
+                        <p><a className="footer-link" href="https://github.com/Jawidanfar1015/Project-3-group-2"><i className="fab fa-github pr-3"></i>Visit the GitHub Repo</a></p>
                     </div>
                 </Container>
             </Container>

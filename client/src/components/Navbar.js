@@ -11,9 +11,9 @@ const AppNavbar = () => {
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
                 <Navbar.Brand as={Link} to='/'>
-                    FANTINDER
+                    The Movie Scene
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='navbar' />
                 <Navbar.Collapse id='navbar'>

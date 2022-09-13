@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/Jawidanfar1015/Project-3-group-2#readme",
   "dependencies": {
-    "if-env": "^1.0.4"
+    "and": "^0.0.3",
+    "if-env": "^1.0.4",
+    "npm": "^8.19.1",
+    "start": "^5.1.0"
   },
   "devDependencies": {
     "concurrently": "^5.3.0"
