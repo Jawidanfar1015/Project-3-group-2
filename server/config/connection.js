@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/fantinder', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/movieScene', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
+    // useCreateIndex: true,
+    // useFindAndModify: false,
 });
 
 module.exports = mongoose.connection;

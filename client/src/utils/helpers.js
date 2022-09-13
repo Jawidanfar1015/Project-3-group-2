@@ -9,8 +9,8 @@ export function findIndexByAttr(array, attr, value) {
 
 export function idbPromise(storeName, method, object) {
   return new Promise((resolve, reject) => {
-    // open connection to the database `fantinder` with the version of 1
-    const request = window.indexedDB.open('fantinder', 1);
+    // open connection to the database `moviescene` with the version of 1
+    const request = window.indexedDB.open('moviescene', 1);
 
     // create variables to hold reference to the database, transaction (tx), and object store
     let db, tx, store;

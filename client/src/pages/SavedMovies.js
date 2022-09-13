@@ -7,7 +7,7 @@ import { DISLIKE_MOVIE, LIKE_MOVIE } from '../utils/mutations';
 import { GET_USER } from '../utils/queries';
 import { useMutation, useQuery } from '@apollo/react-hooks';
 // Global State
-import { useFantinderContext } from "../utils/GlobalState";
+import { useMovieSceneContext } from "../utils/GlobalState";
 import { UPDATE_MOVIE_PREFERENCES } from '../utils/actions';
 // IDB
 import { idbPromise } from "../utils/helpers";
@@ -15,7 +15,7 @@ import { findIndexByAttr } from '../utils/helpers'
 
 const SavedMovies = () => {
     // State
-    const [state, dispatch] = useFantinderContext();
+    const [state, dispatch] = useMovieSceneContext();
     const { likedMovies, dislikedMovies } = state;
     // GraphQL
     const [dislikeMovie] = useMutation(DISLIKE_MOVIE);

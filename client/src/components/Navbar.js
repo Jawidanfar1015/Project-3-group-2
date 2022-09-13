@@ -13,13 +13,16 @@ const AppNavbar = () => {
         <>
             <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
                 <Navbar.Brand as={Link} to='/'>
-                    FANTINDER
+                    MOVIESCENE
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='navbar' />
                 <Navbar.Collapse id='navbar'>
                     <Nav className='ml-auto'>
                         <Nav.Link as={Link} to='/search'>
                             Search For Movies
+                        </Nav.Link>
+                        <Nav.Link as={Link} to='/donation'>
+                            Support US ?
                         </Nav.Link>
                         {/* if user is logged in show saved movies and logout */}
                         {Auth.loggedIn() ? (

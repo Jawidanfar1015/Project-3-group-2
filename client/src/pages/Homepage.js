@@ -9,7 +9,7 @@ import { ADD_MOVIE, DISLIKE_MOVIE, LIKE_MOVIE } from '../utils/mutations';
 import { GET_USER } from '../utils/queries';
 import { useMutation, useQuery } from '@apollo/react-hooks';
 // Global State
-import { useFantinderContext } from "../utils/GlobalState";
+import { useMovieSceneContext } from "../utils/GlobalState";
 import { ADD_TO_MOVIES, UPDATE_MOVIE_PREFERENCES, UPDATE_MOVIES } from '../utils/actions';
 // IndexedDB
 import { idbPromise } from "../utils/helpers";
@@ -19,7 +19,7 @@ import Auth from '../utils/auth';
 import { findIndexByAttr } from '../utils/helpers'
 
 const Homepage = () => {
-    const [state, dispatch] = useFantinderContext();
+    const [state, dispatch] = useMovieSceneContext();
     const { movies, likedMovies, dislikedMovies } = state
     const [movieIndex, setMovieIndex] = useState('');
     // GraphQL
@@ -224,10 +224,10 @@ const Homepage = () => {
         <>
             <Jumbotron fluid className="text-light bg-dark">
                 <Container>
-                    <h1>Welcome to FANTINDER!</h1>
+                    <h1>Welcome to MOVIE SCENE!</h1>
                     {Auth.loggedIn()
                         ? <h4>Click thumbs up to like and save a movie, thumbs down to pass.</h4>
-                        : <h4>Check out our recommended movies below.</h4>
+                        : <h4>Here are our recommended movies below.</h4>
                     }
                 </Container>
             </Jumbotron>

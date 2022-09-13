@@ -93,7 +93,7 @@ const AppFooter = () => {
                     </div>
                     <div className="d-flex justify-content-between">
                         <p>© 2020</p>
-                        <p><a className="footer-link" href="https://github.com/anitapeppercorn/FANTINDER"><i className="fab fa-github pr-3"></i>Visit the GitHub Repo</a></p>
+                        <p><a className="footer-link" href="https://github.com/"><i className="fab fa-github pr-3"></i>Visit the GitHub Repo</a></p>
                     </div>
                 </Container>
             </Container>

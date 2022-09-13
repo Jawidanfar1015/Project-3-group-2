@@ -9,6 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "apollo-boost": "^0.4.9",
+    "axios": "^0.27.2",
     "bootstrap": "^4.5.3",
     "graphql": "^15.3.0",
     "graphql-tag": "^2.11.0",
@@ -20,6 +21,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-star-ratings": "^2.3.0",
+    "react-stripe-checkout": "^2.6.3",
+    "react-toastify": "^8.1.0",
     "sass": "^1.27.0"
   },
   "scripts": {
