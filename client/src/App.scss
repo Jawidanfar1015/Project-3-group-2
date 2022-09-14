@@ -1,6 +1,6 @@
-$color-primary : #26282b;
+$color-primary :#008080;
 $color-lighter-grey-background: #353941;
-$color-light-text: rgb(207, 207, 207);
+$color-light-text:rgb(37, 138, 179);
 $color-medium-text: #9C9EA1;
 $color-dark-text: rgb(63, 63, 63);
 $color-action: #5f85db;
@@ -13,7 +13,7 @@ $color-action-hover: #90b8f8;
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Oswald', sans-serif;
   background: $color-primary;
   color: $color-light-text;
 }

@@ -129,9 +129,9 @@ const AppFooter = () => {
                             <ul className="no-bullets">
                                 <li><h6>Leah Fries</h6></li>
                                 <li>
-                                    <a className="footer-link" href="https://vanessalane.herokuapp.com">
+                                    <a className="footer-link" href="https://github.com/LeahFries/Portfolio">
                                         <span><i className="far fa-folder pr-3"></i></span>
-                                        https://vanessalane.herokuapp.com
+                                        https://github.com/LeahFries/Portfolio
                                     </a>
                                 </li>
                                 <li>
