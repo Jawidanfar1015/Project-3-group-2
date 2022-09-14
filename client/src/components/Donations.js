@@ -42,10 +42,10 @@ const Donations = () => {
 
     return (
         <>
-            <h2 className="text-center mt-5">Please help us to develop the application</h2>  
+            <h2 className="donation_title text-center mt-5">Please help us to develop the application</h2>  
             <Form className="mt-4">
                 <Form.Group>
-                    <Form.Label className="w-100 text-center">Amount you wish to donate</Form.Label>
+                    <Form.Label className="donation_title w-100 text-center">Amount you wish to donate</Form.Label>
                     <Form.Control className="mx-auto w-50 text-center " required placeholder='0.00' type='text'
                         onChange={handleChange}/>
                 </Form.Group>
