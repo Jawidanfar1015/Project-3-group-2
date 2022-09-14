@@ -5,6 +5,7 @@ import { Navbar, Nav, Modal, Tab } from 'react-bootstrap';
 import SignUpForm from './SignupForm';
 import LoginForm from './LoginForm';
 
+
 const AppNavbar = () => {
     // set modal display state
     const [showModal, setShowModal] = useState(false);
@@ -17,12 +18,12 @@ const AppNavbar = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='navbar' />
                 <Navbar.Collapse id='navbar'>
-                    <Nav className='ml-auto'>
+                    <Nav className='.flex-column'>
                         <Nav.Link as={Link} to='/search'>
                             Search For Movies
                         </Nav.Link>
                         <Nav.Link as={Link} to='/donation'>
-                            Support US ?
+                            Support Us! 
                         </Nav.Link>
                         {/* if user is logged in show saved movies and logout */}
                         {Auth.loggedIn() ? (
