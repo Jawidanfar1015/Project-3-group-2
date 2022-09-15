@@ -44,6 +44,6 @@ If you have any questions, please reach out to any of us:
 ## Link
 - Link to the GitHub: https://github.com/Jawidanfar1015/Project-3-group-2
 - Link to the heroku:
-- Screen_Shot of app_homepage:![Screenshot of application](./images/MOVIESCENE-HomePage.png)
-- Screen_Shot of app_homepage:![Screenshot of application](./images/MOVEISCENE-SearchMovie.png)
-- Screen_Shot of app_homepage:![Screenshot of application](./images/MOVIESCENE-SurportUs.png)
+- Screen_Shot of App_HomePage:![Screenshot of application](./images/MOVIESCENE-HomePage.png)
+- Screen_Shot of App_SearchMovie:![Screenshot of application](./images/MOVEISCENE-SearchMovie.png)
+- Screen_Shot of App_SupportUs:![Screenshot of application](./images/MOVIESCENE-SupportUs.png)
