@@ -10,7 +10,7 @@
 - [Link](#link)
 
 ## Description:
-This is our application for the final project in the UW Coding Bootcamp. We created an application to help users search their favorate movies. Users can sign into their profile, search the movie and save the one they like. Users can also surport us by clcking the surport button.
+This is our application for the final project in the UW Coding Bootcamp. We created an application to help users search their favorate movies. Users can sign into their profile, search the movie and save the one they like. Users can also surport us by clicking the support button.
 
 ## Techologies:
 - Use React for the front end.
@@ -43,7 +43,7 @@ If you have any questions, please reach out to any of us:
 
 ## Link
 - Link to the GitHub: https://github.com/Jawidanfar1015/Project-3-group-2
-- Link to the heroku:
+- Link to the heroku: https://movie-scene.herokuapp.com/
 - Screen_Shot of App_HomePage:![Screenshot of application](./images/MOVIESCENE-HomePage.png)
 - Screen_Shot of App_SearchMovie:![Screenshot of application](./images/MOVEISCENE-SearchMovie.png)
 - Screen_Shot of App_SupportUs:![Screenshot of application](./images/MOVIESCENE-SurportUs.png)
