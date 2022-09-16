@@ -46,4 +46,4 @@ If you have any questions, please reach out to any of us:
 - Link to the heroku:
 - Screen_Shot of App_HomePage:![Screenshot of application](./images/MOVIESCENE-HomePage.png)
 - Screen_Shot of App_SearchMovie:![Screenshot of application](./images/MOVEISCENE-SearchMovie.png)
-- Screen_Shot of App_SupportUs:![Screenshot of application](./images/MOVIESCENE-SupportUs.png)
+- Screen_Shot of App_SupportUs:![Screenshot of application](./images/MOVIESCENE-SurportUs.png)
